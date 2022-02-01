@@ -4,7 +4,6 @@ async function check() {
     const dateStr = (new Date()).toISOString();
     let resStr;
     try {
-        //const res = await axios.get('https://faro.websharecloud.com/sdgasgd');
         const res = await axios.get('https://ipv4.icanhazip.com/');
         resStr = 'OK - ' + (res.data as string).trim();
     } catch (e0) {
