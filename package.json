@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "0.25.0"
   },
   "devDependencies": {
-    "ts-node": "^10.4.0"
+    "ts-node": "10.4.0"
   }
 }
